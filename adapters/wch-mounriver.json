@@ -1,0 +1,8 @@
+{
+  "skill_name": "wch-mounriver-mcu",
+  "display_name": "WCH MounRiver MCU",
+  "ecosystem": "WCH CH32V/CH32X MounRiver Studio",
+  "tool_script": "wch_mrs_tool.py",
+  "description": "Build, inspect, and flash WCH CH32V/CH32X RISC-V microcontroller projects created by MounRiver Studio. Use when Codex needs to run MounRiver headless builds, diagnose generated Makefiles, or flash through WCH-Link/OpenOCD.",
+  "adapter_notes": "Use MounRiver eclipsec CDT headless build for build/clean. Use MounRiver OpenOCD with wch-riscv.cfg for WCH-Link flashing. Support --dry-run when hardware is missing."
+}
