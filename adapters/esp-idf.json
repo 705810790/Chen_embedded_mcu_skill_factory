@@ -1,0 +1,8 @@
+{
+  "skill_name": "esp-idf-mcu",
+  "display_name": "ESP-IDF MCU",
+  "ecosystem": "Espressif ESP-IDF projects for ESP32-class MCUs",
+  "tool_script": "esp_idf_tool.py",
+  "description": "Build, inspect, flash, and monitor Espressif ESP-IDF projects for ESP32-class microcontrollers. Use when Codex needs to run idf.py build, idf.py flash, idf.py monitor, diagnose sdkconfig/CMake issues, or inspect ESP-IDF artifacts.",
+  "adapter_notes": "Use idf.py as the native backend. Detect ESP_IDF_PATH, IDF_TOOLS_PATH, Python environment, target chip, sdkconfig, CMake build dir, and serial port. Support --dry-run before flash."
+}
