@@ -1,0 +1,8 @@
+{
+  "skill_name": "stm32-cubeide-mcu",
+  "display_name": "STM32 CubeIDE MCU",
+  "ecosystem": "STM32CubeIDE / STM32CubeMX projects",
+  "tool_script": "stm32_cube_tool.py",
+  "description": "Build, inspect, and flash STM32 microcontroller projects using STM32CubeIDE, STM32CubeMX generated projects, STM32CubeProgrammer CLI, OpenOCD, or CMake/Make where applicable. Use when Codex needs to compile, diagnose, or program STM32 firmware.",
+  "adapter_notes": "Prefer stm32cubeidec or Eclipse CDT headless build for CubeIDE projects. Prefer STM32_Programmer_CLI for flash when available. Fall back to OpenOCD only when board/probe cfg is known."
+}
